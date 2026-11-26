@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>김서연 · Frontend Developer</title>
+    <meta name="description" content="더 효율적인 개발 환경을 고민하는 프론트엔드 개발자 김서연입니다." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="김서연 · Frontend Developer" />
+    <meta property="og:description" content="더 효율적인 개발 환경을 고민하는 프론트엔드 개발자 김서연입니다." />
+    <meta property="og:locale" content="ko_KR" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <!-- Header -->
+      <header class="header">
+        <div class="header-top">
+          <div>
+            <h1 class="name">김서연</h1>
+            <p class="role">Frontend Developer</p>
+          </div>
+          <a class="download" href="resume.pdf" download="김서연_이력서.pdf">
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+              <path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            PDF 다운로드
+          </a>
+        </div>
+        <ul class="contact">
+          <li><span class="label">Email</span><a href="mailto:syeons@gmail.com">syeons@gmail.com</a></li>
+          <li><span class="label">GitHub</span><a href="https://github.com/s2yeons">github.com/s2yeons</a></li>
+          <li><span class="label">Blog</span><a href="https://seoxeon09.tistory.com">seoxeon09.tistory.com</a></li>
+          <li><span class="label">Phone</span><span>010-9362-8676</span></li>
+        </ul>
+      </header>
+
+      <!-- About -->
+      <section class="section">
+        <h2 class="section-title">About</h2>
+        <h3 class="lead"><em>더 효율적인</em> 개발 환경을 고민하고, 적합한 도구를 선택합니다</h3>
+        <p>
+          AWS 배포 환경의 비용과 배포 시간을 줄이기 위해 Vercel 이전을 제안하고 적용했습니다.
+          인프라 비용을 <mark>약 43%</mark> 줄이고, 평균 배포 시간을 <mark>3분 30초에서 1분 10초</mark>로 단축했습니다.
+        </p>
+        <h3 class="lead">협업과 소통으로 <em>더 나은 구현</em>을 만들어갑니다</h3>
+        <p>
+          매주 Weekly Scrum에서 진행 상황과 이슈를 공유하고, 코드 리뷰에서 구현 방식을 함께 검토합니다.
+          스터디를 주도해 학습 내용을 팀과 나누고 <mark class="pink">실제 개발에 적용</mark>합니다.
+        </p>
+      </section>
+
+      <!-- Skills -->
+      <section class="section">
+        <h2 class="section-title">Skills</h2>
+        <ul class="tags">
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>Tailwind CSS</li>
+          <li>TanStack Query</li>
+          <li>Zustand</li>
+          <li>React Hook Form</li>
+          <li>Zod</li>
+          <li>Turborepo</li>
+          <li>Vercel</li>
+          <li>Sentry</li>
+        </ul>
+      </section>
+
+      <!-- Experience -->
+      <section class="section">
+        <h2 class="section-title">Experience</h2>
+        <article class="item">
+          <div class="item-head">
+            <h3>세이프AI <span class="muted">· 임베디드 산학 연계 프로젝트</span></h3>
+          </div>
+          <p>
+            기업 설명회에서 임베디드 분야 산학 연계 프로젝트를 소개받아 참여 예정입니다.
+            임베디드 개발 과정을 경험하며 <mark class="pink">새로운 기술을 배우고</mark> 실무 역량을 키워갈 예정입니다.
+          </p>
+        </article>
+      </section>
+
+      <!-- Projects -->
+      <section class="section">
+        <h2 class="section-title">Projects</h2>
+
+        <article class="project">
+          <div class="item-head">
+            <h3>HELLO, GSM</h3>
+            <span class="date">2025.06 – 2027.04</span>
+          </div>
+          <p class="summary">
+            광주소프트웨어마이스터고 입학지원 서비스. 입학 기간 동안 페이지 뷰 <mark>17,000+건</mark>, 사용자 <mark>1,800명</mark>을 기록했습니다.
+          </p>
+          <p class="meta">프론트엔드 · FE 5 / BE 4 / Cloud 3 / Design 1 · Next.js 16, React 19, TanStack Query, RHF, Zod, Turborepo</p>
+          <ul class="bullets">
+            <li>
+              <strong>AWS → Vercel 배포 환경 이전</strong> — GitHub Actions·Docker·EC2 기반 파이프라인을 서비스 중단 없이 순차 전환해
+              월 인프라 비용 <mark>555,650원 → 311,350원(약 43%↓)</mark>, 배포 시간 <mark>3분 30초 → 1분 10초</mark>
+            </li>
+            <li>
+              <strong>모니터링 구축</strong> — GA4 Custom Event <mark>5개</mark>로 <mark>4단계</mark> 원서 작성 퍼널을 구성하고,
+              Client·Server·Edge 오류를 Sentry로 수집해 장애 인지 시간 <mark>20분 → 5분(75%↓)</mark>
+            </li>
+            <li>
+              <strong>생기부 OCR 도입</strong> — 텍스트 레이어 없는 PDF에서 Tesseract.js 한글 인식이 불가해 kordoc을 선택했으나,
+              네이티브 의존성으로 Vercel Functions 250MB 제한(최대 961MB)을 초과. OCR을 Docker 기반 AWS Lambda로 분리(Vercel → S3 → Lambda)해
+              트레이싱 파일 <mark>1,300개 → 168개</mark>, 입력 시간 <mark>10분 → 35초</mark>, 인식 정확도 최대 <mark>97%</mark>
+            </li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="item-head">
+            <h3>DataGSM</h3>
+            <span class="date">2025.06 – 2027.04</span>
+          </div>
+          <p class="summary">
+            교내 학년·학급·기숙사·동아리 데이터를 표준화해 통합 API와 OAuth로 제공하는 오픈소스 플랫폼. 일 평균 <mark>5,000+건</mark>, 누적 <mark>120만+건</mark>의 요청을 처리합니다.
+          </p>
+          <p class="meta">프론트엔드 · FE 5 / BE 4 / Design 1 · Next.js 16, React 19, TanStack Query, Zustand, Turborepo</p>
+          <ul class="bullets">
+            <li>
+              <strong>OAuth 로그인 CSRF 방지</strong> — state·PKCE 검증을 추가해 비정상 요청의 토큰 교환을 차단하고 앱별 중복 인증 로직을 공통 헬퍼로 통합,
+              테스트 추가로 Lines 커버리지 <mark>85.67% → 90.15%</mark>
+            </li>
+            <li>
+              <strong>클릭재킹 방지</strong> — X-Frame-Options, CSP frame-ancestors 등 보안 헤더 <mark>4종</mark>을 공통 설정으로 <mark>6개</mark> 앱에 적용,
+              Security Headers 검사 <mark class="pink">A 등급</mark>
+            </li>
+            <li>
+              <strong>인증 토큰 httpOnly 전환</strong> — JS에서 읽히던 토큰을 httpOnly 쿠키로 옮기고 갱신·로그아웃을 서버 라우트, 인증 헤더 주입을 미들웨어로 이전(3개 앱).
+              노출 가능 토큰 <mark>2개 → 0개</mark>, 토큰 갱신 중앙값 <mark>307ms → 198ms</mark>, 시나리오별 40회 측정 실패 0건
+            </li>
+          </ul>
+        </article>
+
+        <div class="mini-list">
+          <article class="mini">
+            <div class="item-head">
+              <h3>Ready, GSM <span class="muted">· 학과체험 신청 서비스</span></h3>
+              <span class="date">2025.06 – 현재</span>
+            </div>
+            <p>기획부터 운영까지 참여해 페이지 뷰 <mark>3,400+건</mark>, 사용자 <mark>320+명</mark>을 기록했습니다.</p>
+          </article>
+          <article class="mini">
+            <div class="item-head">
+              <h3>Who Are You <span class="muted">· AI 명함·인생네컷 제작 서비스</span></h3>
+              <span class="date">2025.10 – 2025.12</span>
+            </div>
+            <p>광주 AI·SW 체험축전 등 3개 행사에서 운영해 관람객 <mark>3,000+명</mark>이 체험했습니다.</p>
+          </article>
+          <article class="mini">
+            <div class="item-head">
+              <h3>CHUP v2 <span class="muted">· 채용 공고 통합 관리 서비스</span></h3>
+              <span class="date">2026.07 – 현재</span>
+            </div>
+            <p>팀원 3명과 AI 개발 도구를 활용해 <mark>7일</mark> 만에 구축했고, 사용자 <mark>230+명</mark>이 이용했습니다. (FE·BE)</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Open Source -->
+      <section class="section">
+        <h2 class="section-title">Open Source</h2>
+        <article class="item">
+          <div class="item-head">
+            <h3>react-hook-form <span class="muted">· 버그 분석 및 해결안 제안</span></h3>
+          </div>
+          <p>
+            7.71.0에서 React 19 환경의 Controller 충돌 버그를 재현하고, 7.70.0과 소스를 비교해
+            새 HookFormControlContext 값이 메모이제이션되지 않아 FormProvider 교체 시 참조가 어긋나는 원인을 찾았습니다.
+            <code>useMemo</code>로 참조를 안정화하는 수정안을 GitHub Issue에 공유했습니다.
+          </p>
+        </article>
+      </section>
+
+      <!-- Awards -->
+      <section class="section">
+        <h2 class="section-title">Awards</h2>
+        <ul class="rows">
+          <li><span>전공능력향상캠프 미니 해커톤 · <strong>최우수상(1위)</strong></span><span class="date">2026.07</span></li>
+          <li><span>Dev Festival · <strong>최우수상(1위)</strong></span><span class="date">2026.07</span></li>
+          <li><span>5·18 기념 해커톤 · <strong>최우수상(1위)</strong></span><span class="date">2026.05</span></li>
+          <li><span>아이디어 페스티벌 · <strong>최우수상(1위)</strong></span><span class="date">2025.12</span></li>
+        </ul>
+      </section>
+
+      <!-- Activities -->
+      <section class="section">
+        <h2 class="section-title">Activities</h2>
+        <ul class="rows">
+          <li>
+            <span>더모먼트 팀 · <mark class="pink">40+명 규모 팀 테크리더</mark>, 개발 스터디·현업 개발자 커피챗 주도</span>
+            <span class="date">2025.03 – 현재</span>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Education -->
+      <section class="section">
+        <h2 class="section-title">Education</h2>
+        <ul class="rows">
+          <li><span>광주소프트웨어마이스터고등학교</span><span class="date">2025.03 – 2028.01 (졸업 예정)</span></li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "resume",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npx --yes serve .",
+    "pdf": "node scripts/build-pdf.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.49.1"
+  }
+}
